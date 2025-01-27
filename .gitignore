@@ -1,0 +1,20 @@
+### Terraform ###
+# Ignorar diretórios locais do Terraform
+**/.terraform/*
+
+# Ignorar arquivos de estado do Terraform (contêm informações sensíveis)
+*.tfstate
+*.tfstate.*
+
+# Não ignorar o arquivo de bloqueio do Terraform
+!.terraform.lock.hcl
+
+# Ignorar chaves privadas (ex.: usadas para acesso SSH)
+*.pem
+
+# Ignorar logs
+*.log
+
+# Ignorar backups e arquivos temporários
+*.bak
+*.tmp
